@@ -1,0 +1,117 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{font-family: 'Poppins', sans-serif;
+}
+
+.maindiv{width: 100%;
+height: 200vh;
+/*background-color: #ef5050;*/
+background-image: repeating-linear-gradient(135deg, hsla(149,0%,30%,0.15) 0px, hsla(149,0%,30%,0.15) 1px,transparent 1px, transparent 4px,hsla(149,0%,30%,0.15) 4px, hsla(149,0%,30%,0.15) 5px,transparent 5px, transparent 9px,hsla(149,0%,30%,0.15) 9px, hsla(149,0%,30%,0.15) 10px),repeating-linear-gradient(45deg, hsla(149,0%,30%,0.15) 0px, hsla(149,0%,30%,0.15) 1px,transparent 1px, transparent 4px,hsla(149,0%,30%,0.15) 4px, hsla(149,0%,30%,0.15) 5px,transparent 5px, transparent 9px,hsla(149,0%,30%,0.15) 9px, hsla(149,0%,30%,0.15) 10px),repeating-linear-gradient(0deg, hsla(149,0%,30%,0.15) 0px, hsla(149,0%,30%,0.15) 1px,transparent 1px, transparent 4px,hsla(149,0%,30%,0.15) 4px, hsla(149,0%,30%,0.15) 5px,transparent 5px, transparent 9px,hsla(149,0%,30%,0.15) 9px, hsla(149,0%,30%,0.15) 10px),repeating-linear-gradient(90deg, hsla(149,0%,30%,0.15) 0px, hsla(149,0%,30%,0.15) 1px,transparent 1px, transparent 3px,hsla(149,0%,30%,0.15) 3px, hsla(149,0%,30%,0.15) 4px,transparent 4px, transparent 8px,hsla(149,0%,30%,0.15) 8px, hsla(149,0%,30%,0.15) 9px),linear-gradient(90deg, rgb(60,60,60),rgb(60,60,60));}
+
+.header{width: 95%;
+height: 150px;
+margin: 0 auto;
+display: flex;
+justify-content:space-between ;
+align-items: center;}
+
+.nav{display: flex;
+width: 40%;
+justify-content: space-between;
+}
+
+
+
+.logo a{text-decoration: none;
+color: white;
+font-size: 25px;
+font-weight: bold;
+letter-spacing: 5px;
+text-shadow:5px 5px 5px rgb(48, 47, 47)}
+
+.logo a:hover{text-decoration: underline;}/*logor kaj ses*/
+
+
+
+.nav{font-size: 25px;
+}
+
+.nav a{color: whitesmoke;
+text-decoration: none;} 
+
+.nav a:hover{color: rgb(153, 104, 104);
+transition-duration: .3s;}
+
+
+
+
+
+
+
+
+
+.heading{
+    
+    margin: 0 auto;
+    width: 100%;
+height: 100vh;
+text-align: center;
+display: flex;
+flex-direction: column;
+color: white;}
+
+.rana1{margin: 30% 0px 0px 0px;
+    font-size: 65px;
+    text-shadow: 2px 2px 2px black;;
+}
+
+.rana2{margin: 5% 0px 0px 0px;
+font-size: 35px;
+text-shadow: 2px 2px 2px black;;}
+
+.btn{margin: 5% 0px 0px 0px;
+}
+
+.btn button{padding: 7px;
+border-radius:5px ;
+border: 2px solid white;
+background: none;
+color: white;
+}
+.btn button:hover{background-color: black;
+    border: 2px solid white;}
+
+@media (max-width:380px){
+
+.header{display: flex;
+flex-direction: column;
+align-items: center;
+}
+.nav{display: flex;
+flex-direction: column;
+font-size: 25px;}
+.nav a{
+font-size: 20px;}
+
+.rana1{font-size: 35px;
+letter-spacing: 4.5px;}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+

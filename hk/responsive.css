@@ -1,0 +1,21 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+header{width: 100%;
+       height: 100px;
+    background-color: rgb(17, 243, 156);}
+    
+.headercontant h1{letter-spacing: 5px;
+display:inline-block}    
+    
+.headercontant{display: inline-block;
+    margin:auto;
+width:30%;
+height: 100px;
+margin:0px 0px 0px 40%;
+max-width: 768px;
+overflow: hidden;}
+button{margin:2px}
+
+

@@ -1,0 +1,66 @@
+.div1{border: 2px solid gray;
+height: 200px;
+background-color: #ffe6ff;}
+
+
+
+h1{text-align:center}
+
+.button{background-color: #4CAF50;
+border: none;
+color: white;
+padding: 15px 30px;
+font-size: 18px;
+margin: 15px;
+}
+
+.button2{background-color:	#d92626;}
+.button3{background-color:	#4d4d4d;margin: px;}
+.button4{background-color: 	#f2f2f2;
+color: black;position: fixed;}
+
+.div2{border: 2px solid gray;
+margin-top: 20px;}
+
+.button5{border-radius: 5px;}
+.button6{border-radius: 15px;}
+.button7{border-radius: 5px;}
+.button8{border-radius: 50%;}
+
+.div3{border: 2px solid gray;
+    margin-top: 20px;}
+
+.button9{background-color: white;
+border: 2px solid #4CAF50;
+color: black;}
+
+.button9:hover{background-color:#4CAF50;
+color: white;
+transition-duration: 0.5s;}
+
+.button10{background-color:white;
+    border:2px solid#4d4d4d;
+    color: black;
+   }
+   
+.button10:hover{background-color:#4d4d4d;
+    transition-duration: 0.5s;
+color: white;}
+
+.button11{background-color:white;
+    border:2px solid #d92626;
+    color: black;
+   }
+
+   .button11:hover{background-color: #d92626;
+    transition-duration: 0.3s;
+color: white;
+border: 2px solid #d92626;
+
+}
+.button12{background-color: #fcba03;
+color: black;}
+.button12:hover{background-color: black;
+color:white;
+border: 2px solid black;
+transition-duration: 0.6s;}

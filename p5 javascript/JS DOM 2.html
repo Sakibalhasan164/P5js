@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM 2</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+</head>
+<style>
+
+/* .dragOver{background-color: rgb(65, 42, 165);
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    .myclass{
+        border: none;
+        background-color: rgb(186, 65, 202);
+        padding:10px 29px 10px 29px;
+        margin: 5px;
+    }
+    #text-field{
+        width: 150px;
+        height: 35px;
+        font-size: 25px;
+    }
+    #HEADER{
+        display: block;
+    }
+    .canvas{display: inline-block;
+    /* padding: 35px;*/} 
+    .tolist{
+        color: red;
+    }
+
+   /* this is sakib class dinamicly added from javascript */
+   .sakib{
+       color: rgb(224, 1, 131);
+   }
+
+#addBtn{
+    padding: 20px;
+}
+#rmv{
+    padding: 20px;
+    /* background: tomato; */
+
+}
+#imageWraper{
+    background-color: wheat;
+}
+
+/* #dropZone{
+    background-color: thistle;
+} */
+
+#DropZone{
+    margin: 2px;
+    background-color: tomato;
+    padding: 35PX;
+    border: 2px dotted black;
+}
+</style>
+<body>
+    <div id="Landing-wraper">
+<h1 id="HEADER">This is a header</h1>
+<p id="paragraph1">This is a paragraph</p>
+<input type="text" name="" id="text-field"></input>
+<!-- <button>Click</button> -->
+
+
+<h3>LIST OF HAPPY THINGS</h3>
+
+<ul id="Paren">
+<li id="sakibHASAN">sakib</li>
+<li>akib</li>
+<li>kib</li>
+<li>ib</li>
+<li>biksa</li>
+</ul>
+</div>
+
+<div id="imageWraper">
+<h1 id="IMAGES">IMAGES</h1>
+<button id="addBtn">ADD IMG</button>
+<button id="rmv">REMOVE IMGS</button>
+</div>
+
+<div id="DropZone">
+    <p>Drop Your Image</p>
+</div>
+
+
+ 
+<script src="JS DOM 2.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+
+*{margin:0;padding:0;}
+ul {
+    background-color:#59cc33;
+    list-style-type: none;
+    overflow: hidden;
+    ;
+  }
+.nav{position: fixed;
+width:100%;
+}
+
+
+
+
+
+li{float:left;}/*padding anchor tag e dite hbe...li te dewa jabe na*/
+  
+
+
+
+li a{text-decoration: none;
+color: white;
+display: block;}
+li a {
+    display: block;
+    color: white;
+    padding:25px;
+    
+  }
+  li a:hover{background-color: rgb(10, 10, 10);
+}
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+p{margin-top: 10px;
+margin: 10px;font-family: 'Noto Sans JP', sans-serif;}
+
+.container{background-color: greenyellow;color:black;
+;;}
+.footer{background-color: #59cc33;
+margin-top: 5px;
+text-align: center;
+height: 50px;
+color: black;}
+

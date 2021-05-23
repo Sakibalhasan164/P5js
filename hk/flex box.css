@@ -1,0 +1,13 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+.main{display: flex;
+flex-basis: 90%;
+justify-content: space-around;
+align-items: center;}
+
+.nav{display: flex;
+}
+.nav-links{background-color: rgb(119, 119, 223);
+;justify-content: space-between;}
